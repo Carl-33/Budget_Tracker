@@ -9,8 +9,8 @@ const staticFilestoPreCache = [
     "styles.css",
     "manifest.webmanifest",
     "index.js",
-    "./icons/icon-192x192.png",
-    "./icons/icon-512x512.png",
+    "icons/icon-192x192.png",
+    "icons/icon-512x512.png",
 ];
 
 // installing the service-worker
@@ -43,7 +43,7 @@ self.addEventListener("activate", function(evt){
 
 self.addEventListener("fetch", function(evt) {
     const {url} = evt.request;
-    if(url.includes("/api/transaction")){
+    if(url.includes("/api/transaction") || url.includes("/api/transaction") ){
         evt.respondWith(
             caches.open(DATA_CACHE_NAME).then(cache =>{
                 return fetch(evt.request)
