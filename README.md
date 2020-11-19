@@ -1,7 +1,7 @@
 # Budget_Tracker
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-An easy to use budget tracker that works whether or not you're connected to teh internet.
+An easy to use budget tracker that works whether or not you're connected to the internet.
 
 ## Table of Content
   * [Link](#link)
