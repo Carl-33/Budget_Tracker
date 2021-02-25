@@ -35,6 +35,7 @@ When you lose internet access, don't fret.  Anything you need to add or subtract
 Click on the three dots in the upper right corner of your window, and select "Install Budget Tracker" to install the app on your local machine.
 
 ![Installation GIF](public/assets/GIF1.gif)
+
 Budget entries made in the app will appear in the webversion as well.
 
 
